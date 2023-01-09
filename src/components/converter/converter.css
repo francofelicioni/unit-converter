@@ -1,0 +1,142 @@
+.Converter {
+  width: 714px;
+  height: 193px;
+  background: #2e0039;
+  box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 21px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  padding: 40px;
+}
+.Converter-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+.Input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+.Select-container {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+}
+.select {
+  color: black;
+  margin-right: 20px;
+}
+.select-icon {
+  display: flex;
+  align-items: center;
+}
+.input-box {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.input-box {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.input {
+  background-color: none;
+  color: white;
+  color: black;
+}
+.input-box input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.input select > option {
+  color: black;
+}
+
+.input img {
+  cursor: pointer;
+}
+
+.input-box span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: white;
+}
+.Converter-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Converter-result {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.result {
+  background-color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+  .Converter {
+    width: 649px;
+    height: 209px;
+    background: #2e0039;
+    box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+  }
+  .select {
+    width: 250px;
+  }
+  .Select-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: space-between;
+  }
+  .select-icon {
+    padding: 0 50px 0 0;
+    justify-content: space-between;
+  }
+
+  .select-icon select {
+    width: 80%;
+  }
+
+  .Input-container {
+    gap: 30px;
+  }
+  .input-box {
+    padding: 0 50px 0 0;
+    justify-content: space-between;
+  }
+  .input {
+    width: 80%;
+  }
+  .Converter-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px 0 0;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .Converter {
+    width: 349px;
+  }
+}
